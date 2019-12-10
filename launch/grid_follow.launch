@@ -1,0 +1,13 @@
+<launch>
+
+     <include file="$(find prizm_ros)/launch/twist_controller.launch" />
+     <!--<include file="$(find birds_eye_view)/launch/birds_eye.launch" />-->
+
+
+    <!-- launch the node -->
+    <node name="grid_follow" pkg="grid_follow" type="grid_follow" respawn="true" respawn_delay="10" output="screen" />
+    <!-- Use a specific laserscan path -->
+        <param name="scan_topic" type="string" value="/lidar2d/detect/scan" /> 
+</launch>
+
+
