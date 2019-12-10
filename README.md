@@ -8,7 +8,7 @@
 
 **Details:**
 
-  1. Download and calibrate the [birds_eye](https://github.com/nick-paul/birds_eye_view) package. Calibration/configuration instructions are [here](https://youtu.be/uj6eqsdXZck)
+  1. Download and calibrate the birds_eye package. Calibration/configuration instructions are [here](https://youtu.be/uj6eqsdXZck)
   2. Download this assignment into your ROS workspace.
   3. Add your code to the `gridCallback` function in `grid_follow.cpp`
 
